@@ -26,10 +26,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $max = (int) $_POST['max'];
         $ketqua = random($min, $max);
 
-        echo 'min '.$min;
-        echo '<br>';
-        echo 'max '.$max;
-        echo '<br>';
+//        echo 'min '.$min;
+//        echo '<br>';
+//        echo 'max '.$max;
+//        echo '<br>';
         echo "kết quả ".$ketqua;
         echo '<br>';
     }
@@ -38,10 +38,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $min = (int) $_POST['min'];
         $ketqua = random($min, $max);
 
-        echo 'min '.$min;
-        echo '<br> ';
-        echo 'max'.$max;
-        echo '<br> ';
+//        echo 'min '.$min;
+//        echo '<br> ';
+//        echo 'max'.$max;
+//        echo '<br> ';
         echo "kết quả ".$ketqua;
     }if ($ketqua == $num) {
         echo 'đã tìm ra';

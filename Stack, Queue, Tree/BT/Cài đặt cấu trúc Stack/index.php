@@ -11,6 +11,7 @@ $stack->push(7);
 $stack->push(8);
 $stack->push(9);
 $stack->push(10);
+
 //$stack->push(11);
 echo '<br>';
 echo $stack->isEmpty() ;
